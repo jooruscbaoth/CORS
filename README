@@ -5,6 +5,13 @@ Los mismos son usados para configuran csrf y cors.
 
 Únicamente se debe modificar el _package_, para que coíncida con tu proyecto.
 
+También se debe agregar la siguiente dependencia en el archivo pom.xml
+
+<dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+
 REFERENCIA:
 - Permitir la generación de un post por fuera de un formulario propio de SpringBoot:
 https://docs.spring.io/spring-security/site/docs/5.0.x/reference/html/csrf.html
